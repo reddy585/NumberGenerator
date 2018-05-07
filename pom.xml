@@ -16,6 +16,16 @@
 		</dependency>
 	</dependencies>
 
+	
+	
+<servers>
+	<id>deployment</id>
+	<username>admin</usernemr>
+	<password>admin123</password>
+	<server>
+		
+</servers>
+	
 	<build>
 		<plugins>
 			<plugin>
@@ -29,5 +39,18 @@
 			</plugin>
 		</plugins>
 	</build>
-
+	
+	<distributionManagement>
+		<repository>
+			<id>deployment</id>
+			<name>Internal Release</name>
+			<url>http://10.0.2.15:8081/repository/maven-releases/</url>
+		</repository>
+		<snapshotRepository>
+			<id>deployment</id>
+			<name>Internal Release</name>
+			<url>http://10.0.2.15:8081/repository/maven-snapshots/</url>
+		</snapshotRepository>
+	</distributionManagement>
+	
 </project>
