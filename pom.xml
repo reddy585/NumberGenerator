@@ -19,10 +19,11 @@
 	
 	
 <servers>
+	<server>
 	<id>deployment</id>
 	<username>admin</usernemr>
 	<password>admin123</password>
-	<server>
+	</server>
 		
 </servers>
 	
