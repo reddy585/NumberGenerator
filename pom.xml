@@ -17,16 +17,6 @@
 	</dependencies>
 
 	
-	
-<servers>
-	<server>
-	<id>deployment</id>
-	<username>admin</usernemr>
-	<password>admin123</password>
-	</server>
-		
-</servers>
-	
 	<build>
 		<plugins>
 			<plugin>
